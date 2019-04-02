@@ -5,8 +5,8 @@ include(vcpkg_common_functions)
 vcpkg_from_github(
     OUT_SOURCE_PATH SOURCE_PATH
     REPO boostorg/safe_numerics
-    REF boost-1.68.0
-    SHA512 File C:\Sandbox\GitHub\vcpkg\ports\boost-vcpkg-helpers\downloads\safe_numerics-boost-1.68.0.tar.gz does not exist
+    REF boost-1.69.0
+    SHA512 708f23d304402671466c24a3c8acb1fd497799eb1c97d314c5ed78712d3906142f3ad5442e159cc304ace46b1e761b920bbe454ebf80df46127be78e98f25f8b
     HEAD_REF master
 )
 
