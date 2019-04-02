@@ -1,0 +1,13 @@
+vcpkg remove assimp:%VCPKG_ARCH%
+vcpkg remove boost-disjoint-sets:%VCPKG_ARCH%
+vcpkg remove boost-dynamic-bitset:%VCPKG_ARCH%
+vcpkg remove boost-filesystem:%VCPKG_ARCH%
+vcpkg remove boost-graph:%VCPKG_ARCH%
+vcpkg remove boost-odeint:%VCPKG_ARCH%
+vcpkg remove boost-program-options:%VCPKG_ARCH%
+vcpkg remove boost-serialization:%VCPKG_ARCH%
+vcpkg remove boost-system:%VCPKG_ARCH%
+vcpkg remove boost-test:%VCPKG_ARCH%
+vcpkg remove boost-ublas:%VCPKG_ARCH%
+vcpkg remove eigen3:%VCPKG_ARCH%
+vcpkg remove fcl:%VCPKG_ARCH%
