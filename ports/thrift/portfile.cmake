@@ -15,8 +15,8 @@ vcpkg_find_acquire_program(BISON)
 vcpkg_from_github(
     OUT_SOURCE_PATH SOURCE_PATH
     REPO apache/thrift
-    REF a5df39032ca206e2e6a9ec975147e81746d9a255
-    SHA512 765227283477dc0c0d0e94da34f1d11e90ccdfc61752662e9da7c9e4793d655de2a6c42e8e44c488e264b8b1f071c5a1324bb63111d471718c6e85b39b812ddd
+    REF 2ff952b0af4035bcb71d8d73d9eb75df31983544
+    SHA512 58d08a6258b3c64f6fe1f2e4200b6cac61b19ac66113782e4eacf058d15c451de741bff137b32261fc816074ef111627f27cc50ad366eb73395dcc631c2ca66f
     HEAD_REF master
 )
 
@@ -41,6 +41,9 @@ vcpkg_configure_cmake(
 vcpkg_install_cmake()
 
 file(INSTALL ${SOURCE_PATH}/LICENSE DESTINATION ${CURRENT_PACKAGES_DIR}/share/thrift RENAME copyright)
+
+# Move CMake config files to the right place
+vcpkg_fixup_cmake_targets(CONFIG_PATH "lib/cmake/thrift")
 
 file(GLOB COMPILER "${CURRENT_PACKAGES_DIR}/bin/thrift*")
 if(COMPILER)

@@ -4,8 +4,8 @@ include(vcpkg_common_functions)
 vcpkg_from_github(
     OUT_SOURCE_PATH SOURCE_PATH
     REPO Taywee/args
-    REF a82a9d6c94d7c58d8b96c65bdc1aba09a4f3e5db
-    SHA512 0a7caf231117827eb2dbbca3d51259c701c1b8da61518565e5cfe379edd03f34a2dac2d35cdba659042e19e7b3076ef4b6aa6e01d2f9b66db59d1672f9f18f12
+    REF 6cd243def4b335efa5a83acb4d29aee482970d2e
+    SHA512 112b98d37d0a3f5bd2993e0e7fb64545391a368e43a87d56e0129cc8f6edc9158d6bd105dc33e3263ff1c48a584ef2dc0fadcd1e8d810b06c716d703c5a1079f
     HEAD_REF master
 )
 
